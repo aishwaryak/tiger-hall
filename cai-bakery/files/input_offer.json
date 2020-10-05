@@ -1,0 +1,32 @@
+[
+  {
+    "offerType": "quantity",
+    "cronExpression": "* * * * 5",
+    "item": "Cookie",
+    "unit": 8,
+    "offerPrice": 6,
+    "percent": 0,
+    "xAmount": 0,
+    "yAmount": 0
+  },
+  {
+    "offerType": "percentage",
+    "cronExpression": "* * 1 10 *",
+    "item": "Key Lime Cheesecake",
+    "unit": 0,
+    "offerPrice": 0,
+    "percent": 25,
+    "xAmount": 0,
+    "yAmount": 0
+  },
+  {
+    "offerType": "xForY",
+    "cronExpression": "* * * * 2",
+    "item": "Mini Gingerbread Donut",
+    "unit": 0,
+    "offerPrice": 0,
+    "percent": 0,
+    "xAmount": 2,
+    "yAmount": 1
+  }
+]
