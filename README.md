@@ -29,6 +29,6 @@ Things to improve on in version 2.0:
 
 2. Setup and tearDown methods for the tests. Issue tracked <a href="https://github.com/rust-lang/rfcs/issues/1664">here</a>
     
-3. Having 3 different types of structs for the different types of Offer, and parse them appropriately. Refer to <a href=https://github.com/aishwaryak/tiger-hall/tree/offer-modular>PR</a>: (Couldn't incorporate due to the shortcomings of serde in v1.). Ensures better modularisation, and extensibility.
+3. Having 3 different types of structs for the different types of Offer, and parse them appropriately. Refer to <a href="https://github.com/aishwaryak/tiger-hall/pull/2">PR</a>: (Couldn't incorporate due to the shortcomings of serde in v1.). Ensures better modularisation, and extensibility.
 
 4. Getter/setter methods for the structs.
