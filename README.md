@@ -4,9 +4,9 @@ Adobe CAI Bakery challenge
 
 To run the application:
 1. Download the github repo.
-2. From the tiger-hall/cai-bakery directory. 
-	a. Run > cargo build.
-	b. Run > cargo test.
+2. From the tiger-hall/cai-bakery directory. <br>
+	a. Run > cargo build. <br>
+	b. Run > cargo test. <br>
 
 All tests must pass successfully. 
 If needed I can also devise this as a normal application with entry point from main.rs.
@@ -20,15 +20,15 @@ Designing the cart application of a bakery store
 
 3. order::execute_order is the entry point to the application. If provided with an empty order_date, we assume there is no offer to be applied. If not, we check for existing offers. It returns the total price, with or without offers for the current order.
 
-4. The check to verify whether an order can be applied or not is based out of a cron expression - we are assuming the right cron expression for the corresponding offer is entered in the json file. More on cron expressions here: https://crontab.guru/
+4. The check to verify whether an order can be applied or not is based out of a cron expression - we are assuming the right cron expression for the corresponding offer is entered in the json file. More on cron expressions <a href="https://crontab.guru/">here</a>.
 
 Things to improve on in version 2.0:
 ====================================
 
 1. Better error handling and logging.
 
-2. Setup and tearDown methods for the tests. Issue tracker here - https://github.com/rust-lang/rfcs/issues/1664
+2. Setup and tearDown methods for the tests. Issue tracked <a href="https://github.com/rust-lang/rfcs/issues/1664">here</a>
     
-3. Having 3 different types of structs for the different types of Offer, and parse them appropriately. Refer to PR: (Couldn't incorporate due to the shortcomings of serde in v1.). Ensures better modularisation, and extensibility.
+3. Having 3 different types of structs for the different types of Offer, and parse them appropriately. Refer to <a href=https://github.com/aishwaryak/tiger-hall/tree/offer-modular>PR</a>: (Couldn't incorporate due to the shortcomings of serde in v1.). Ensures better modularisation, and extensibility.
 
 4. Getter/setter methods for the structs.
